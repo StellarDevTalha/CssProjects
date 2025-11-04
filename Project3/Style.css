@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    /* background-color: yellowgreen; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+nav h4{
+    font-size: 25px;
+    /* border: solid 2px black; */
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    margin: 5px;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+#intro{
+    height: 45%;
+    font-size: 75px;
+    /* background-color: blueviolet; */
+    line-height: 142px;
+    padding: 55px 60px;
+    letter-spacing: -3px;
+}
+#intro2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#intro2 h3 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 0px 50px;
+    
+}
+#hero-img{
+    height: 87%;
+    width: 100%;
+    background-image:url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    object-fit:cover;
+}
+
+
